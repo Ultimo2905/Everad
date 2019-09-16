@@ -1,0 +1,592 @@
+@media (min-width: 1224px) and (max-width: 1750px) {
+    .headerContent {
+        margin-top: 1235px;
+        flex-direction: column;
+    }
+
+    header {
+        background-position-x: left;
+    }
+
+    main {
+        margin-top: 800px;
+    }
+
+    .logotext {
+        justify-content: center;
+    }
+
+    .headerInfoBlock {
+        margin: 30px 30px 0 30px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1223px) {
+    .headerContent {
+        margin-top: 1235px;
+        flex-direction: column;
+    }
+
+    main {
+        margin-top: 800px;
+    }
+
+    .logotext {
+        justify-content: center;
+    }
+
+    .littleInfoBlockOne {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1070px;
+    }
+
+    .littleInfoBlockTwo {
+        margin: 75px 20px 0 20px;
+    }
+
+    .headerInfoBlock {
+        margin: 30px 30px 0 30px;
+    }
+
+    .mainBlockTwoHeader {
+        margin: 0 30px 0 30px;
+    }
+
+    .mainBlockTwoMain {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 30px 0 30px;
+        background-size: cover;
+    }
+
+    .miniBlocks {
+        flex-basis: 40%;
+        background-size: cover;
+        margin-top: 30px;
+
+    }
+
+    .mainBlockTwo {
+        height: 100%;
+        padding: 30px 0 80px 0;
+    }
+
+    .mainBlockTwoFooter {
+        margin: 75px 20px 0 20px;
+    }
+
+    .mainBlockThreeMain {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mainBlockThreeLittle {
+        flex-basis: 40%;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .mainBlockThreeLittl,
+    .mainBlockThreeLittle {
+        flex-basis: 40%;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 80px;
+        height: 370px;
+    }
+
+    .mainBlockFoure {
+        padding: 50px 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(3) {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(7) {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(6) {
+        margin: 10px auto 10px auto;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1023px) {
+    .headerContent {
+        margin-top: 1235px;
+        flex-direction: column;
+    }
+
+    main {
+        margin-top: 800px;
+    }
+
+    .logotext {
+        justify-content: center;
+    }
+
+    .littleInfoBlockOne {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1070px;
+    }
+
+    .littleInfoBlockTwo {
+        margin: 75px 20px 0 20px;
+    }
+
+    .headerInfoBlock {
+        margin: 30px 30px 0 30px;
+    }
+
+    .mainBlockTwoHeader {
+        margin: 0 30px 0 30px;
+    }
+
+    .mainBlockTwoMain {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 30px 0 30px;
+        background-size: cover;
+    }
+
+    .miniBlocks {
+        flex-basis: 100%;
+        background-size: auto;
+        margin-top: 30px;
+        height: 610px;
+        width: auto;
+        background-position: center;
+
+    }
+
+    .mainBlockTwo {
+        height: 100%;
+        padding: 30px 0 80px 0;
+    }
+
+    .mainBlockTwoFooter {
+        margin: 75px 20px 0 20px;
+    }
+
+    .mainBlockThreeMain {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mainBlockThreeLittle {
+        flex-basis: 40%;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .mainBlockThreeLittl,
+    .mainBlockThreeLittle {
+        flex-basis: 40%;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 80px;
+        height: 370px;
+    }
+
+    .mainBlockFoure {
+        padding: 50px 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(3) {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(7) {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(6) {
+        margin: 10px auto 10px auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .headerContent {
+        margin-top: 1050px;
+        flex-direction: column;
+    }
+
+    header {
+        background-size: contain;
+    }
+
+    main {
+        margin-top: 900px;
+    }
+
+    .logotext {
+        justify-content: center;
+    }
+
+    .headerInfoFormBottom {
+        flex-direction: column;
+    }
+
+    .littleInfoBlockOne {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1070px;
+    }
+
+    .littleInfoBlockTwo {
+        margin: 75px 20px 0 20px;
+        padding-bottom: 30px;
+    }
+
+    .headerInfoBlock {
+        margin: 30px 30px 0 30px;
+    }
+
+    .mainBlockTwoHeader {
+        margin: 0 30px 0 30px;
+    }
+
+    .mainBlockTwoMain {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 30px 0 30px;
+        background-size: cover;
+    }
+
+    .mainBlockThree {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks {
+        flex-basis: 100%;
+        background-size: auto;
+        margin-top: 30px;
+        height: 610px;
+        width: auto;
+        background-position: center;
+
+    }
+
+    .mainBlockTwo {
+        height: 100%;
+        padding: 30px 0 80px 0;
+    }
+
+    .mainBlockTwoFooter {
+        margin: 75px 20px 0 20px;
+    }
+
+    .mainBlockThreeMain {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mainBlockThreeLittle {
+        flex-basis: 40%;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .mainBlockThreeLittl,
+    .mainBlockThreeLittle {
+        flex-basis: auto;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 80px;
+        height: 370px;
+        background-position: center;
+    }
+
+    .mainBlockThreeFooter {
+        background-size: contain;
+    }
+
+    .mainBlockThreeFooter p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .mainBlockFoure {
+        padding: 50px 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(3) {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(7) {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(6) {
+        margin: 10px auto 10px auto;
+    }
+
+    .mainBlockFoureMain {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .headerContent {
+        margin-top: 950px;
+        flex-direction: column;
+    }
+
+    header {
+        background-size: contain;
+    }
+
+    main {
+        margin-top: 800px;
+    }
+
+    .logotext {
+        justify-content: center;
+    }
+
+    .headerInfoFormBottom {
+        flex-direction: column;
+    }
+
+    .littleInfoBlockOne {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1070px;
+    }
+
+    .headerInfoBlock div:nth-child(2) {
+        margin: 22px 0 22px;
+    }
+
+    .littleInfoBlockTwo {
+        margin: 75px 20px 0 20px;
+        padding-bottom: 30px;
+    }
+
+    .headerInfoBlock {
+        margin: 30px 30px 0 30px;
+        flex-direction: column;
+    }
+
+    .mainBlockTwoHeader {
+        margin: 20px 30px 0 30px;
+    }
+
+    .mainBlockTwoMain {
+        flex-wrap: wrap;
+        justify-content: center;
+        background-size: cover;
+    }
+
+    .mainBlockThree {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks {
+        margin-top: 40px;
+        height: auto;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .mainBlockTwo {
+        height: 100%;
+        padding: 30px 0 80px 0;
+    }
+
+    .mainBlockTwoFooter {
+        margin: 75px 20px 0 20px;
+    }
+
+    .mainBlockThreeMain {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mainBlockThreeLittle {
+        flex-basis: 40%;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .mainBlockThreeLittl,
+    .mainBlockThreeLittle {
+        flex-basis: auto;
+        background-size: contain;
+        margin-top: 30px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 0;
+        height: 300px;
+        background-position: center;
+    }
+
+    .mainBlockThreeFooter {
+        background-size: cover;
+    }
+
+    .mainBlockThreeFooter p {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .mainBlockFoure {
+        padding: 50px 20px 0 20px;
+        background-size: cover;
+    }
+
+    .bigImgBlock img {
+        width: 250px;
+    }
+
+    .miniBlocks p:nth-child(3) {
+        padding: 0 20px 0 20px;
+    }
+
+    .miniBlocks p:nth-child(7) {
+        padding: 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .miniBlocks p:nth-child(6) {
+        margin: 10px auto 10px auto;
+    }
+
+    .mainBlockFoureMain {
+        flex-direction: column;
+    }
+
+    .headerInfoFormBottomTextMain,
+    .mainBlockOneHeaderText h3,
+    .mainBlockTwoHeader h3,
+    .mainBlockThreeHead h3,
+    .mainBlockFoureHeader h3 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .headerInfoFormBottomTextMain span:first-child,
+    .headerInfoFormBottomTextMain span:nth-child(2),
+    .headerInfoFormBottomTextMain span:last-child {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .headerInfoFormBottomText,
+    .mainBlockOne {
+        margin: 0 20px 0 20px;
+    }
+
+    .mainBlockOneHeaderText p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .infoBlockOneSameStyle {
+        flex-direction: column-reverse;
+    }
+
+    .infoBlockOneSameStyle p {
+        margin: auto 20px auto;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .smalltext p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .littleInfoBlockTwo p {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px;
+    }
+
+    .miniBlocks img:nth-child(5) {
+        width: 100%;
+    }
+
+    .mainBlockTwoFooter p:nth-child(3) {
+        padding: 10px;
+    }
+
+    .mainBlockThreeHead p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .mainBlockThreeLittle p:nth-child(3),
+    .mainBlockThreeLittl p:nth-child(3) {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .mainBlockThreeLittle img {
+        top: -40px;
+        left: 0;
+    }
+
+    .mainBlockThreeLittl img {
+        top: -25px;
+        left: 0;
+    }
+
+    .mainBlockThreeLittle p:nth-child(2),
+    .mainBlockThreeLittl p:nth-child(2) {
+        margin: -30px auto 0 auto;
+    }
+
+    .footerInfo {
+        margin: 0 0 10px 0;
+    }
+
+    .mainBlockFoure {
+        margin-top: 0;
+    }
+
+    .footerInfoLineText {
+        margin-left: 10px;
+    }
+
+    .footerInfoLineText p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .formBlock {margin-left: 10px}
+}

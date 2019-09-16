@@ -1,0 +1,631 @@
+body {
+    max-width: 1920px;
+    margin: 0;
+    font-family: roboto;
+   	overflow-x: hidden;
+}
+
+header {
+    background-image: url(../img/fonhead.jpg);
+    height: 845px;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+}
+
+.headerContent {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.flexmod {
+    display: flex;
+    align-items: center;
+}
+
+.logotext {
+    display: flex;
+    align-items: baseline;
+    flex-basis: 40%;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 900;
+    margin: 0 0 0 20px;
+}
+
+.headerInfoBlock {
+    display: flex;
+    margin-left: 80px;
+}
+
+.headerInfoForm {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+.headerInfoBlock div:nth-child(2) {
+    margin: 0 22px 0 22px;
+}
+
+.headerInfo img {
+    padding-right: 15px;
+}
+
+.headerInfo p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666;
+    font-style: italic;
+    margin: 0;
+}
+
+.headerInfoFormBottom {
+    display: flex;
+    margin-top: 55px;
+}
+
+.headerInfoFormBottomText {
+    max-width: 400px;
+}
+
+.benefits p {
+    margin: 45px 30px 0 20px;
+}
+
+.formBlock {
+    background-image: url(../img/formbg.png);
+    background-repeat: no-repeat;
+    height: 553px;
+    width: 270px;
+    position: relative;
+    max-width: 270px;
+    text-align: center;
+}
+
+.formBlockFree {
+    justify-content: center;
+}
+
+.formBlockFree p {
+    margin: 0 0 0 10px;
+}
+
+.formBlockTextInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerInfoFormBottomTextMain {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 44px;
+    margin: 0;
+    max-width: 310px;
+}
+
+.headerInfoFormBottomTextMain span:first-child {
+    text-decoration: underline;
+    text-decoration-color: #ff6b00;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.headerInfoFormBottomTextMain span:last-child {
+    text-decoration: underline;
+    text-decoration-color: #86a443;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.headerInfoFormBottomTextMain span:nth-child(2) {
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.benefits {
+    margin: 44px 0 44px 0;
+}
+
+.benefits img {
+    width: 60px;
+    height: 60px;
+}
+
+.benefits p {
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 300px;
+}
+
+.pills {
+    text-decoration: underline;
+    text-decoration-color: #ff6b00;
+}
+
+.gel {
+    text-decoration: underline;
+    text-decoration-color: #86a443;
+}
+
+.formBlockOrderNow p:first-child {
+    padding-top: 35px;
+    margin: auto;
+    max-width: 170px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.formBlockOrderNow p:last-child {
+    color: #ff6b00;
+    margin: 0;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.priseBlock {
+    align-items: baseline;
+}
+
+.priceOld {
+    flex-basis: 50%;
+}
+
+.priceNew {
+    flex-basis: 50%;
+}
+
+.priceOld p {
+    margin: 15px 0 10px 0;
+}
+
+.priceNew p {
+    margin: 15px 0 10px 0;
+}
+
+.formBlockTextInformation input:first-child {
+    width: 220px;
+    height: 60px;
+    background-color: #eef2f7;
+    border-radius: 32px;
+    background-image: url(../img/pipl.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #666;
+    margin: 12px 0 10px 0;
+    border: none;
+        text-align: center;
+}
+
+.formBlockTextInformation input:nth-child(2) {
+    width: 220px;
+    height: 60px;
+    background-color: #eef2f7;
+    border-radius: 32px;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #666;
+    margin: 0 0 15px 0;
+    border: none;
+    text-align: center;
+}
+
+.formBlockTextInformation button {
+    background-image: url(../img/buttonOrder.png);
+    background-repeat: no-repeat;
+    width: 218px;
+    height: 70px;
+    background-size: contain;
+    text-decoration: none;
+    border: none;
+    background-color: snow;
+    cursor: pointer;
+}
+
+.formTextButtom p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 20px 0 0 0;
+    font-weight: 400;
+    max-width: 190px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+.formTextButtom span {
+    color: #aac653;
+}
+
+.formTextButtomLast {
+    height: 38px;
+    width: 256px;
+    background-color: #eef2f7;
+    display: flex;
+    margin-top: 14px;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+    padding: -1px;
+    margin-left: 7px;
+}
+
+.formTextButtomLast img {
+    padding: 0 15px 0 27px;
+}
+
+.formTextButtomLast p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+}
+
+.arow {
+    position: absolute;
+    top: 180px;
+    left: 250px;
+}
+
+.mainBlockOne {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.littleInfoBlockOne {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.infoBlockOneSameStyle {
+    display: flex;
+    align-items: center;
+}
+
+.mainBlockOneHeaderText h3 {
+    font-size: 48px;
+    line-height: 48px;
+    margin: 30px 0 35px 0;
+}
+
+.mainBlockOneHeaderText p {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+.infoBlockOneSameStyle p {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0 20px 0 30px;
+    text-align: left;
+}
+
+.infoBlockOnelittl {
+    flex-basis: 33%;
+}
+
+.smalltext p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #444;
+    max-width: 303px;
+    text-align: left;
+    margin: 20px 0 0 15px;
+}
+
+.littleInfoBlockTwo {
+    max-width: 1170px;
+    height: 140px;
+    border: 1px solid #ff6b00;
+    margin: 75px auto 0 auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.littleInfoBlockTwo img {
+    position: relative;
+    top: -20px;
+}
+
+.littleInfoBlockTwo p {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #444;
+    margin: 0;
+    padding: 0 85px 0 85px;
+}
+
+.mainBlockTwo {
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    height: 1450px;
+    background-size: cover;
+    text-align: center;
+}
+
+.mainBlockTwoHeader {
+    padding-top: 60px;
+}
+
+.mainBlockTwoHeader h3 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    max-width: 1035px;
+    margin: 40px auto 40px auto;
+}
+
+.mainBlockTwoMain {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.miniBlocks {
+    background-image: url(../img/bg2_sm.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 610px;
+    width: 100%;
+}
+
+.miniBlocks img:first-child {
+    margin-top: -20px;
+}
+
+.miniBlocks p:nth-child(2) {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    margin: 25px auto 20px auto;
+
+}
+
+.miniBlocks p:nth-child(3) {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 900;
+    max-width: 285px;
+    margin: 0 auto;
+}
+
+.miniBlocks p:nth-child(4) {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 900;
+    margin: 0 auto;
+    color: #666;
+}
+
+.miniBlocks p:nth-child(6) {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 900;
+    margin: 20px auto 20px auto;
+    color: #ff6b00;
+}
+
+.miniBlocks p:nth-child(7) {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.mainBlockTwoFooter {
+    max-width: 1170px;
+    /* height: 140px;*/
+    border: 1px solid #f4d3bb;
+    margin: 75px auto 0 auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.mainBlockTwoFooter img {
+    margin-top: -30px;
+}
+
+.mainBlockTwoFooter p:nth-child(2) {
+    margin-top: -40px;
+    position: relative;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 900;
+}
+
+.mainBlockTwoFooter p:nth-child(3) {
+    position: relative;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 15px 100px 25px 100px;
+    margin: 0;
+}
+
+.mainBlockThree {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.mainBlockThreeHead h3 {
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: 900;
+    max-width: 830px;
+    margin: 20px auto 25px auto;
+}
+
+.mainBlockThreeHead span {
+    color: #fa4f01;
+}
+
+.mainBlockThreeHead p {
+    font-size: 23px;
+    line-height: 48px;
+    font-weight: 400;
+    max-width: 970px;
+    margin: auto auto 90px auto;
+}
+
+.mainBlockThreeLittle {
+    background-image: url(../img/RoundedRectangleOne.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 307px;
+}
+
+.mainBlockThreeLittl {
+    background-image: url(../img/RoundedRectangleTwo.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 307px;
+}
+
+.mainBlockThreeMain {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.mainBlockThreeLittle img {
+    position: relative;
+    top: -70px;
+    left: -10px;
+}
+
+.mainBlockThreeLittl img {
+    position: relative;
+    top: -60px;
+    left: -10px;
+}
+
+.mainBlockThreeLittle p:nth-child(2) {
+    margin: -40px auto 0 auto;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.mainBlockThreeLittl p:nth-child(2) {
+    margin: -40px auto 0 auto;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.mainBlockThreeLittle p:nth-child(3) {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    max-width: 340px;
+    margin: 20px auto;
+}
+
+.mainBlockThreeLittl p:nth-child(3) {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    max-width: 340px;
+    margin: 20px auto;
+}
+
+.mainBlockThreeFooter {
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-position: center;
+}
+
+.mainBlockThreeFooter p {
+    font-size: 27px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.mainBlockThreeFooter span {
+    color: #f64d01;
+}
+
+.mainBlockFoure {
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 160px;
+}
+
+.mainBlockFoureHeader h3 {
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: 900;
+    max-width: 830px;
+    margin: 20px auto 25px auto;
+}
+
+.mainBlockFoureHeader span {
+    color: #fa4f01;
+}
+
+.mainBlockFoureMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    padding-bottom: 35px;
+}
+
+.footerInfo {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 0 0 10px 20px;
+}
+.bigImgBlock img{
+	margin-top: 25px;
+}
+.footerInfoLineText{
+	margin-left:30px;
+}
+.footerInfoLineText p{
+	font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
